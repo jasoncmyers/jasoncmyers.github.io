@@ -1,0 +1,68 @@
+/* Spacing for the navbar-fixed-top */
+body {
+  padding-top: 60px;
+  font-family: 'Armata', Helvetica, sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+.project-row {
+  padding: 2% 0 2% 0;  
+}
+
+a:active, a:hover, a:focus {
+  outline: none;
+}
+
+.one-line-list a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none
+}
+
+.navbar-inverse .navbar-brand {
+  color: #e0e0e6;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  border-radius: 10px;
+  margin: 0 0 0 0;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  border: 2px solid white;
+  padding: 13px 13px 13px 13px;
+}
+
+.pad-space {
+  padding: 10% 0 10% 0;
+}
+.pad-top-space {
+  padding: 10% 0 0 0;
+}
+.pad-bottom-space {
+  padding: 0 0 10% 0;
+}
+.full-page {
+  height: 100vh;
+}
+
+.one-line-list {
+  margin-left: auto;
+  margin-right: auto;  
+}
+
+.one-line-list li {
+  width: auto;
+  display: inline;
+  padding: 2%;
+  font-size: 16px;
+}
+
+#contact-title {
+  padding-bottom: 5%;
+}
