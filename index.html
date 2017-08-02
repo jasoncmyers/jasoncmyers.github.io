@@ -14,138 +14,133 @@
 
 <body>
   <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-  <div class="container" id="navbar">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-items-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Jason C. Myers</a>
+    <div class="container" id="navbar">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-items-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Jason C. Myers</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-items-1">
+        <ul class="nav navbar-nav navbar-right">
+          <!--<li><a href="#about" id="navbar-about">about</a></li>-->
+          <li><a href="#" id="navbar-top">top</a></li>
+          <li><a href="#portfolio" id="navbar-portfolio">portfolio</a></li>
+          <li><a href="#contact" id="navbar-contact">contact</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="navbar-items-1">
-      <ul class="nav navbar-nav navbar-right">
-        <!--<li><a href="#about" id="navbar-about">about</a></li>-->
-        <li><a href="#" id="navbar-top">top</a></li>
-        <li><a href="#portfolio" id="navbar-portfolio">portfolio</a></li>
-        <li><a href="#contact" id="navbar-contact">contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  </nav>
 
 
-<div class="container-fluid" id="page-top">
-  <div class="row full-page pad-space">
-    <div class="col-xs-offset-6 col-xs-6 text-center">
-      <h1 id="top-title">Jason Myers</h1>
-      <!--<p id="top-subtitle"><br>Maker of Things</p>-->
+  <div class="container-fluid" id="page-top">
+    <div class="row full-page pad-space">
+      <div class="col-xs-offset-6 col-xs-6 text-center">
+        <h1 id="top-title">Jason Myers</h1>
+        <!--<p id="top-subtitle"><br>Maker of Things</p>-->
+      </div>
     </div>
-  </div>
-</div> <!-- end #page-top-->
+  </div> <!-- end #page-top-->
 
 
-<div class="container" id="main-page">
-  <!--<div class="row pad-space" id="about">
-    <a name="about"></a>
-    <h2 class="page-header text-center" id="about-title">About Me</h2>
-  </div><!-- end #about -->
-  
-  <div class="row pad-space" id="portfolio">
-    <a name="portfolio"></a>
-    <h2 class="page-header text-center" id="portfolio-title">Portfolio: Some Recent Projects</h2>
-    <div class="row project-row"> 
-      <div class="col-md-7">
-        <a href="https://github.com/jasoncmyers/ElementsOfComputing">
-          <img class="img-responsive img-rounded project-banner" src="http://jasoncmyers.github.io/images/nand2tetris.png" alt="View Nand to Tetris project">
-        </a>
+  <div class="container" id="main-page">
+    <!--<div class="row pad-space" id="about">
+      <a name="about"></a>
+      <h2 class="page-header text-center" id="about-title">About Me</h2>
+    </div><!-- end #about -->
+    
+    <div class="row pad-space" id="portfolio">
+      <a name="portfolio"></a>
+      <h2 class="page-header text-center" id="portfolio-title">Portfolio: Some Recent Projects</h2>
+      <div class="row project-row"> 
+        <div class="col-md-7">
+          <a href="https://github.com/jasoncmyers/ElementsOfComputing">
+            <img class="img-responsive img-rounded project-banner" src="http://jasoncmyers.github.io/images/nand2tetris.png" alt="View Nand to Tetris project">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3 class="project-title">Nand to Tetris</h3>
+          <p class="project-desc">A 12-project course which begins with only NAND logic gates and uses them to build increasingly complex 
+          logic and memory circuits leading up to a simple van Neumann-architecture computer. </p>
+          <p class="project-desc">The second half of the course had us construct an assembler and from there went to successively higher abstractions,
+            including a virtual machine emulator, compiler for a simple language, and a series of OS libraries for the virtual machine.</p>
+          <p class="project-tools">Tools used: C#, assembly, Jack (language implemented during the project)</p>
+        </div>
+      </div> <!-- end .project-row -->
+      <div class="row project-row">
+        <div class="col-md-7">
+          <a href="https://github.com/jasoncmyers/.ser-Reader">
+            <img class="img-responsive img-rounded project-banner" src="http://jasoncmyers.github.io/images/ser-reader.png" alt="View .ser Reader project">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3 class="project-title">.ser File Reader</h3>
+          <p class="project-desc">A library implemented to read the .ser files produced by the ESVision/Tia transmission electron microscopy software.</p>
+          <p class="project-desc">The library allows the reading, manipulation, and writing of both individual images and image stacks.</p>
+          <p class="project-tools">Tools used: C++</p>
+        </div>
+      </div> <!-- end .project-row -->
+      <div class="row project-row">
+        <div class="col-md-7">
+          <a href="https://github.com/myer0154/Coursera--Reproducible-Research/tree/master/Assignment%202%20-%20Week%204">
+            <img class="img-responsive img-rounded project-banner" src="http://jasoncmyers.github.io/images/R-weather-report.png" alt="View Weather Data Analysis project">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3 class="project-title">Data Analysis: Severe Weather Events</h3>
+          <p class="project-desc">A project for the Coursera Reproducible Research course.  It involves an analysis of various measures of economic damages
+          from severe in the United States.</p>
+          <p class="project-desc"></p>
+          <p class="project-tools"> Tools used: R, R Markdown</p>
+        </div>
+      </div> <!-- end .project-row -->
+      <div class="row project-row">
+        <div class="col-md-7">
+          <a href="#">
+            <img class="img-responsive img-rounded project-banner" src="http://jasoncmyers.github.io/images/quote-machine-temp.png" alt="View Quote Generator project">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3 class="project-title">Quote Generator</h3>
+          <p class="project-desc">A FreeCodeCamp project website that selects a random quote from a list and displays it.  Also includes a link
+          that allows a user to tweet the quote.</p>
+          <p class="project-desc">CURRENTLY INCOMPLETE</p>
+          <p class="project-tools">Tools used: HTML5, CSS3, Bootstrap3, jquery, javascript</p>
+        </div>
+      </div> <!-- end .project-row -->
+    </div> <!-- end #portfolio -->
+    
+    <div class="row" id="contact">
+      <a name="contact"></a>
+      <div class="row text-center">
+        <div class="col-xl-12" id="contact-title">
+          <h2 class = "page-header">Contact Me</h2>
+        </div>
       </div>
-      <div class="col-md-5">
-        <h3 class="project-title">Nand to Tetris</h3>
-        <p class="project-desc">A 12-project course which begins with only NAND logic gates and uses them to build increasingly complex 
-        logic and memory circuits leading up to a simple van Neumann-architecture computer. </p>
-        <p class="project-desc">The second half of the course had us construct an assembler and from there went to successively higher abstractions,
-          including a virtual machine emulator, compiler for a simple language, and a series of OS libraries for the virtual machine.</p>
-        <p class="project-tools">Tools used: C#, assembly, Jack (language implemented during the project)</p>
+      <div class="row text-center">
+        <p id="contact-p">You can view more of my work or contact me via:</p>
       </div>
-    </div> <!-- end .project-row -->
-    <div class="row project-row">
-      <div class="col-md-7">
-        <a href="#">
-          <img class="img-responsive img-rounded project-banner" src="http://jasoncmyers.github.io/images/ser-reader.png" alt="View .ser Reader project">
-        </a>
-      </div>
-      <div class="col-md-5">
-        <h3 class="project-title">.ser File Reader</h3>
-        <p class="project-desc">A library implemented to read the .ser files produced by the ESVision/Tia transmission electron microscopy software.</p>
-        <p class="project-desc">The library allows the reading, manipulation, and writing of both individual images and image stacks.</p>
-        <p class="project-tools">Tools used: C++</p>
-      </div>
-    </div> <!-- end .project-row -->
-    <div class="row project-row">
-      <div class="col-md-7">
-        <a href="#">
-          <img class="img-responsive img-rounded project-banner" src="http://jasoncmyers.github.io/images/R-weather-report.png" alt="View Weather Data Analysis project">
-        </a>
-      </div>
-      <div class="col-md-5">
-        <h3 class="project-title">Data Analysis: Severe Weather Events</h3>
-        <p class="project-desc">A project for the Coursera Reproducible Research course.  It involves an analysis of various measures of economic damages
-        from severe in the United States.</p>
-        <p class="project-desc"></p>
-        <p class="project-tools"> Tools used: R, R Markdown</p>
-      </div>
-    </div> <!-- end .project-row -->
-    <div class="row project-row">
-      <div class="col-md-7">
-        <a href="#">
-          <img class="img-responsive img-rounded project-banner" src="http://jasoncmyers.github.io/images/quote-machine-temp.png" alt="View Quote Generator project">
-        </a>
-      </div>
-      <div class="col-md-5">
-        <h3 class="project-title">Quote Generator</h3>
-        <p class="project-desc">A FreeCodeCamp project website that selects a random quote from a list and displays it.  Also includes a link
-        that allows a user to tweet the quote.</p>
-        <p class="project-desc">CURRENTLY INCOMPLETE</p>
-        <p class="project-tools">Tools used: HTML5, CSS3, Bootstrap3, jquery, javascript</p>
-      </div>
-    </div> <!-- end .project-row -->
-  </div> <!-- end #portfolio -->
-  
-  <div class="row" id="contact">
-    <a name="contact"></a>
-    <div class="row text-center">
-      <div class="col-xl-12" id="contact-title">
-        <h2 class = "page-header">Contact Me</h2>
-      </div>
-    </div>
-    <div class="row text-center">
-      <p id="contact-p">You can view more of my work or contact me via:</p>
-    </div>
-    <ul class="one-line-list pad-bottom-space text-center">
-      <li>
-        <a href="https://github.com/jasoncmyers"><i class="fa fa-github"></i> Github</a>
-        </li>
+      <ul class="one-line-list pad-bottom-space text-center">
         <li>
-          <a href="https://www.linkedin.com/in/jason-c-myers/"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
-        </li>
-        <li>
-          <a href="https://www.freecodecamp.org/jasoncmyers"><i class="fa fa-free-code-camp"></i> FreeCodeCamp</a>
-        </li>
-        <li>
-          <a href="https://codepen.io/myer0154"><i class="fa fa-codepen"></i> CodePen</a>
-        </li>
-      </ul>
-    </div>
-  </div> <!-- end #contact -->
-</div> <!-- end #main-page -->
-          
+          <a href="https://github.com/jasoncmyers"><i class="fa fa-github"></i> Github</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jason-c-myers/"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+          </li>
+          <li>
+            <a href="https://www.freecodecamp.org/jasoncmyers"><i class="fa fa-free-code-camp"></i> FreeCodeCamp</a>
+          </li>
+          <li>
+            <a href="https://codepen.io/myer0154"><i class="fa fa-codepen"></i> CodePen</a>
+          </li>
+        </ul>
+    </div> <!-- end #contact -->
+  </div> <!-- end #main-page --> 
                                
-          
-                               
-  
-  
+ 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
