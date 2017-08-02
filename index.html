@@ -26,7 +26,8 @@
     </div>
     <div class="collapse navbar-collapse" id="navbar-items-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about" id="navbar-about">about</a></li>
+        <!--<li><a href="#about" id="navbar-about">about</a></li>-->
+        <li><a href="#" id="navbar-top">top</a></li>
         <li><a href="#portfolio" id="navbar-portfolio">portfolio</a></li>
         <li><a href="#contact" id="navbar-contact">contact</a></li>
       </ul>
@@ -34,12 +35,19 @@
   </div>
 </nav>
 
-<div class="container" id="main-page">
-  <div class="full-page pad-space">
-    <h2 class="text-center" id="top-title">This is the top</h2>
+
+<div class="container-fluid" id="page-top">
+  <div class="row full-page pad-space">
+    <div class="col-xs-offset-6 col-xs-6 text-center">
+      <h1 id="top-title">Jason Myers</h1>
+      <!--<p id="top-subtitle"><br>Maker of Things</p>-->
+    </div>
   </div>
-  
-  <div class="row pad-space" id="about">
+</div> <!-- end #page-top-->
+
+
+<div class="container" id="main-page">
+  <!--<div class="row pad-space" id="about">
     <a name="about"></a>
     <h2 class="page-header text-center" id="about-title">About Me</h2>
   </div><!-- end #about -->
@@ -49,7 +57,9 @@
     <h2 class="page-header text-center" id="portfolio-title">Portfolio: Some Recent Projects</h2>
     <div class="row project-row"> 
       <div class="col-md-7">
-        <img class="img-responsive img-rounded" src="http://jasoncmyers.github.io/images/nand2tetris.png">
+        <a href="https://github.com/jasoncmyers/ElementsOfComputing">
+          <img class="img-responsive img-rounded project-banner" src="http://jasoncmyers.github.io/images/nand2tetris.png" alt="View Nand to Tetris project">
+        </a>
       </div>
       <div class="col-md-5">
         <h3 class="project-title">Nand to Tetris</h3>
@@ -60,21 +70,11 @@
         <p class="project-tools">Tools used: C#, assembly, Jack (language implemented during the project)</p>
       </div>
     </div> <!-- end .project-row -->
-    <div class="row project-row"> <!-- Project 2 -->
-      <div class="col-md-7">
-        <img class="img-responsive img-rounded" src="http://jasoncmyers.github.io/images/quote-machine-temp.png">
-      </div>
-      <div class="col-md-5">
-        <h3 class="project-title">Quote Generator</h3>
-        <p class="project-desc">A FreeCodeCamp project website that selects a random quote from a list and displays it.  Also includes a link
-        that allows a user to tweet the quote.</p>
-        <p class="project-desc">CURRENTLY INCOMPLETE</p>
-        <p class="project-tools">Tools used: HTML5, CSS3, Bootstrap3, jquery, javascript</p>
-      </div>
-    </div> <!-- end .project-row -->
     <div class="row project-row">
       <div class="col-md-7">
-        <img class="img-responsive" src="http://placehold.it/700x300">
+        <a href="#">
+          <img class="img-responsive img-rounded project-banner" src="http://jasoncmyers.github.io/images/ser-reader.png" alt="View .ser Reader project">
+        </a>
       </div>
       <div class="col-md-5">
         <h3 class="project-title">.ser File Reader</h3>
@@ -85,7 +85,9 @@
     </div> <!-- end .project-row -->
     <div class="row project-row">
       <div class="col-md-7">
-        <img class="img-responsive" src="http://jasoncmyers.github.io/images/R-weather-report.png">
+        <a href="#">
+          <img class="img-responsive img-rounded project-banner" src="http://jasoncmyers.github.io/images/R-weather-report.png" alt="View Weather Data Analysis project">
+        </a>
       </div>
       <div class="col-md-5">
         <h3 class="project-title">Data Analysis: Severe Weather Events</h3>
@@ -95,19 +97,33 @@
         <p class="project-tools"> Tools used: R, R Markdown</p>
       </div>
     </div> <!-- end .project-row -->
+    <div class="row project-row">
+      <div class="col-md-7">
+        <a href="#">
+          <img class="img-responsive img-rounded project-banner" src="http://jasoncmyers.github.io/images/quote-machine-temp.png" alt="View Quote Generator project">
+        </a>
+      </div>
+      <div class="col-md-5">
+        <h3 class="project-title">Quote Generator</h3>
+        <p class="project-desc">A FreeCodeCamp project website that selects a random quote from a list and displays it.  Also includes a link
+        that allows a user to tweet the quote.</p>
+        <p class="project-desc">CURRENTLY INCOMPLETE</p>
+        <p class="project-tools">Tools used: HTML5, CSS3, Bootstrap3, jquery, javascript</p>
+      </div>
+    </div> <!-- end .project-row -->
   </div> <!-- end #portfolio -->
   
   <div class="row" id="contact">
     <a name="contact"></a>
-    <div class="row pad-top-space text-center">
+    <div class="row text-center">
       <div class="col-xl-12" id="contact-title">
         <h2 class = "page-header">Contact Me</h2>
       </div>
     </div>
     <div class="row text-center">
-      <p id="contact-p">You can view more of my work or contact me at:</p>
+      <p id="contact-p">You can view more of my work or contact me via:</p>
     </div>
-    <ul class="one-line-list text-center">
+    <ul class="one-line-list pad-bottom-space text-center">
       <li>
         <a href="https://github.com/jasoncmyers"><i class="fa fa-github"></i> Github</a>
         </li>
@@ -124,6 +140,8 @@
     </div>
   </div> <!-- end #contact -->
 </div> <!-- end #main-page -->
+          
+                               
           
                                
   

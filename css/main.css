@@ -1,6 +1,6 @@
 /* Spacing for the navbar-fixed-top */
 body {
-  padding-top: 60px;
+  padding-top: 50px;
   font-family: 'Armata', Helvetica, sans-serif;
 }
 
@@ -14,6 +14,10 @@ p {
 
 a:active, a:hover, a:focus {
   outline: none;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus {
+  
 }
 
 .one-line-list a {
@@ -70,4 +74,26 @@ ul {
 #contact-p {
   font-size: 18px;
   padding-bottom: 3%;
+}
+
+#page-top {
+  background-image: url("http://jasoncmyers.github.io/images/Background-TEM-image.jpg");
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+#top-title {
+  font-size: 40px;
+}
+#top-subtitle {
+  font-size: 22px;
+}
+
+@media (max-width: 768px) {
+  p, .project-desc, .project-tools, .project-title, .project-banner  {
+    padding: 0 2% 0 2%;
+  }
 }
