@@ -20,4 +20,9 @@ $(document).ready(function() {
     $(window).scrollTo(0, 500);
   })
   
+  $("#navbar-top").click(function(event) {
+    event.preventDefault();
+    $(window).scrollTo(0, 500);
+  })
+  
 })
