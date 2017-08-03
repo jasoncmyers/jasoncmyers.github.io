@@ -92,8 +92,14 @@ ul {
   font-size: 22px;
 }
 
+/* To prevent elements from being right up against the screen edge on mobile */
 @media (max-width: 768px) {
-  p, .project-desc, .project-tools, .project-title, .project-banner  {
-    padding: 0 2% 0 2%;
+  p, .project-desc, .project-tools, .project-title, .project-goto-btn, .project-banner  {
+    padding: 0 2%;
+  }
+  
+  #contact-P {
+    padding: 0 2% 3% 2%;
   }
 }
+
