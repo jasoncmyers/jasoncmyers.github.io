@@ -8,6 +8,10 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+h3, h4, h5, h6 {
+  margin-top: 5px;
+}
+
 .project-row {
   padding: 2% 0 2% 0;  
 }
@@ -103,3 +107,8 @@ ul {
   }
 }
 
+@media (max-width: 991px) {
+  h3, h4, h5, h6 {
+    margin-top: 15px;
+  }
+}
